@@ -1,0 +1,292 @@
+/* .app{
+ left: 0;
+ position: relative;
+} */
+.whatsapp{
+  position: fixed;
+  bottom: 20px;
+  right: 5px;
+  width: 70px;
+  height: 70px;
+border-radius: 100%;
+}
+.whatsapp:hover{
+  width: 80px;
+  height: 80px;
+  transition-duration: 0.3s;
+}
+#navbar {
+  
+  background-color: #85A30D;
+   /* Large padding which will shrink on scroll (using JS) */
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  position: fixed; /* Sticky/fixed navbar */
+  width: 100%;
+  top: 0; /* At the top */
+  z-index: 99;
+  color:white;
+  /* position: relative;
+  left: 2px; */
+
+}
+
+#header-img{
+  width: 120px;
+  height: auto;
+  background-color: white;
+  margin-top: 10px;
+  position: fixed;
+  /* overflow: hidden; */
+}
+#menu{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  /* border: 5px solid greenyellow; */
+  margin-left: 40%;
+  display: flex;
+  width: 90%;
+  height: auto;
+  margin-left:0%;
+  width: 100%;
+  padding-top:10px ;
+}
+#nav-dropdown{
+  background-color: #85A30D;
+  border: 0;
+  margin-top: 10px;
+  /* position: absolute; */
+}
+.btn-secondary{
+  border: 0;
+}
+#menu li{
+  /* position: absolute; */
+  list-style: none;
+/* display: inline-block; */
+justify-content: space-between;
+
+}
+.menu-ancher{
+  color:white;
+display: block;
+padding: 15px 10px;
+text-decoration: none;
+transition-duration: 0.9s;
+/* border: 5px solid red; */
+width: 100px;
+height: auto;
+text-align: center;
+}
+.menu-ancher-search{
+  font-size: 20px;
+  color: black;
+  width: 50px;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 20px;
+  background:white;
+ 
+}
+/* .menu-ancher-search:hover{
+  background-color: white;
+} */
+#menu li a:hover{
+  background:#85A30D;
+  color: white;
+
+ 
+  
+}
+.dropdown-menu{
+  position: absolute;
+}
+.dropdown-item{
+position: absolute;
+  color: black;
+  font-size: 14px;
+  position: relative;
+  left: 10px;
+}
+.dropdown-menu .dropdown-submenu {
+  display: none;
+  /* position: absolute; */
+  left: 210px;
+  top: -7px;
+
+  }
+  .dropdown-menu .dropdown-submenu-left {
+    /* position: absolute; */
+  right: 100%;
+  left: auto;
+  }
+  .dropdown-menu > li:hover > .dropdown-submenu {
+    /* position: absolute; */
+  display: block;
+  }
+
+/* carosel */
+.carousel-inner img{
+  width: 100%;
+  height: 500px;
+  /* margin-top: 200px; */
+  position: relative;
+  left: 2px;
+}
+.carosel-span{
+color: #85A30D;
+}
+/* .div-grlocation{
+display: flex;
+justify-content: space-around;
+} */
+.grlocation{
+  /* border: 2px solid red; */
+  margin-bottom: -20px;
+  margin-left: -2px;
+}
+.card-tour-location{
+  font-size: 13px;
+  /* margin-left: 20px; */
+}
+
+/* view packages  */
+.card1-btn{
+  background-color: #85A30D;
+  color: white;
+  width:200px;
+  border: 1px solid gray;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}  
+.card1-btn:hover{
+  color: rgb(233, 230, 230);
+}   
+.btn-card-2{
+  background-color: rgb(242, 242, 242);
+  color: black;
+  border: 1px solid black;
+}
+/* servies  */
+.service-card{
+  width: 100%;
+  height: 600px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-top: 60px;
+  /* margin-left: 7%; */
+  border-radius: 1%;
+  padding-left: 10%;
+  padding-right:10%;
+}
+/* package-destination */
+.package-destination-card{
+  width: 100%;
+  height: 400px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-top: 60px;
+  /* margin-left: 7%; */
+  padding-left: 10%;
+  padding-right:10%;
+  border-radius: 1%;
+  background-color: rgb(242, 242, 242);
+}
+.banner{
+  position: relative;
+  opacity: 0.9;
+  transition-duration:0.3s ;
+}
+.banner:hover{
+  
+  opacity: 1;
+  transform: scale(1.1);
+}
+.heading{
+  position: absolute;
+  margin-top: 30%;
+  color: white;
+margin-left: 15%;
+}
+/* theme package */
+.theme-package{
+  width: 100%;
+  height: 400px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-top: 60px;
+  /* margin-left: 7%; */
+  border-radius: 1%;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: rgb(242, 242, 242);
+}
+/* client review */
+.client-card{
+  box-shadow: rgba(213, 215, 216, 0.2) 0px 8px 24px;
+  border: 2px solid black;
+margin-bottom: 80px;
+  width: 300px;
+  height: auto;
+}
+/* about treebone */
+.about-treebone{
+  height: 550px;
+  box-shadow: rgba(213, 215, 216, 0.2) 0px 8px 24px;
+  background-color: rgb(242, 242, 242);
+}
+/* quick enquiry  */
+.quick-enquiry {
+  height: 450px;
+  box-shadow: rgba(213, 215, 216, 0.2) 0px 8px 24px;
+  background-color: white;
+}
+.quick-form-input{
+  width: 70%;
+  height: 40px;
+  border: 2px solid rgb(230, 230, 230);
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.quick-form-input-textarea{
+  width: 70%;
+  height: 70px;
+  border: 2px solid rgb(230, 230, 230);
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.upper-footer-div{
+  width: 100%;
+  height: 400px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-top: 60px;
+  /* margin-left: 7%; */
+  border-radius: 1%;
+  padding-left: 100px;
+  padding-right: 100px;
+
+  /* background-color: rgb(242, 242, 242); */
+}
+.upper-footer-div text{
+/* line-height: 40px; */
+}
+.footer-icon-p{
+
+  border: 2px solid red;
+}
+.link-div{
+
+}
+.link-button{
+  margin-bottom: 15px;
+  margin-left: 2%;
+  /* border: 2px solid red; */
+
+}
+.lower-footer{
+  width: 100%;
+  height: 100px;
+  background-color: #2C312D;
+}
+.link-button-footer{
+  color: white;
+}
+.lower-footer-img{
+  margin-left: 50%;
+}
